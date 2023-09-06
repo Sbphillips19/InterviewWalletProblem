@@ -49,7 +49,7 @@ export default function HomePage() {
 
   // Start on ETH - change to a filter to not have to deal with changing 
   // this everytime there is a new chain
-  const [selectedChains, setSelectedChains] = useState<MultiValue<ChainOption>>([chainOptions[3]]);
+  const [selectedChains, setSelectedChains] = useState<MultiValue<ChainOption>>([chainOptions[4]]);
 
   const handleAddressChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setWalletAddress(event.target.value);
